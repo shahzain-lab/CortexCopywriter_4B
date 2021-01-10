@@ -3276,8 +3276,6 @@ textarea.error {
   }
 
   .topbar-desktop-characters-container {
-    /* margin-top: 10px; */
-    /* overflow-x: scroll; */
     width: 550px;
     height: 140px;
     align-items: flex-start;
