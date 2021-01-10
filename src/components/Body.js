@@ -4267,7 +4267,7 @@ export const Body = () => {
                 className="techniques_bg"
                 style={{ opacity: 1, transform: "matrix(1, 0, 0, 1, 0, 0)" }}
               >
-                <img alt=" " src={techAr.svg} />
+                <img alt=" " src={techAr} />
               </div>
             </div>
           </div>

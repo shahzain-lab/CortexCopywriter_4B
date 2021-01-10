@@ -15,12 +15,12 @@ import tara from '../images/tara.jpg';
 import adgrooveSample from '../images/adgrooveSample.jpg';
 import rayvonsnestSample from '../images/rayvonsnestSample.jpg';
 import persona2 from '../images/persona2.svg'; 
-import persona3 from '../images/persona3.svg'; 
+import persona3 from '../images/persona3.svg';  
 import persona4 from '../images/persona4.svg'; 
 import persona5 from '../images/persona5.svg'; 
 import persona6 from '../images/persona6.svg'; 
 import persona7 from '../images/persona7.svg'; 
-
+///
 
 export const Samples = () => {
     return (
