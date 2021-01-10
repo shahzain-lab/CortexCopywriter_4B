@@ -59,7 +59,7 @@ export const Navigation = () => {
       className="topbar-desktop"
       onClick={() => {
         topbarDesktop.current.animate(
-          { height: ["0px", "170px", "170px","170px","0"] },
+          { height: ["0px", "170px","170px","0"] },
           { duration: 2000, easing: "linear" }
         );
       }}
