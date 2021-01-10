@@ -4739,7 +4739,7 @@ export const Body = () => {
 
             <div className="review">
               <div className="review-image">
-                <img alt=" " src="img\persona-4.svg" />
+                <img alt=" " src={persona4} />
                 <div className="review-logo"></div>
               </div>
               <div className="review-text">
@@ -4782,7 +4782,7 @@ export const Body = () => {
 
             <div className="review">
               <div className="review-image">
-                <img alt=" " src="img\persona-5.svg" />
+                <img alt=" " src={persona5} />
                 <div className="review-logo"></div>
               </div>
               <div className="review-text">
@@ -4819,7 +4819,7 @@ export const Body = () => {
 
             <div className="review">
               <div className="review-image">
-                <img alt=" " src="img\persona-3.svg" />
+                <img alt=" " src={persona3} />
                 <div className="review-logo"></div>
               </div>
               <div className="review-text">
@@ -4859,62 +4859,7 @@ export const Body = () => {
               </div>
             </div>
 
-            {/* <div className="review">
-            <div className="review-image">
-              <img  alt=" " src="img\persona-7.svg"/>
-              <div className="review-logo"></div>
-            </div>
-            <div className="review-text">
-              <div className="review-name">Adrian Rodriguez Soto</div>
-              <div className="review-title">eCommerce Manager – EUX Agency</div>
-              <div className="review-short">
-                <div className="review-short-sample">"..superior intellect"</div>
-                <div className="review-short-sample">"..deep psychology"</div>
-                <div className="review-short-sample">"..doubled conversions"</div>
-              </div>
-
-
-
-            </div>
-            <div className="review-long-container">
-              <div className="review-long-title">Show full testimonial</div>
-              <div className="review-long">
-                <div className="review-long-text-container">
-                <p>"Within 2 minutes of talking with Nathan, I realized I was dealing with a superior intellect. He doesn’t miss much! I was shocked by the speed, power, and precision of Nathan’s copywriting and UX writing. Nathan instinctively knows what works and what doesn’t because he has deep knowledge of consumer and behavioral psychology.</p>
-                <p>Nathan’s fine-tuned copy nearly doubled our website’s overall conversion rate. I can’t wait to see what he does next for our business!"</p>
-              </div>
-              </div>
-            </div>
-          </div> */}
-
-            {/* 
-          <div className="review">
-            <div className="review-image">
-              <img alt=" "  src="img\persona-8.svg"/>
-              <div className="review-logo"></div>
-            </div>
-            <div className="review-text">
-              <div className="review-name">Adrian Rodriguez Soto</div>
-              <div className="review-title">eCommerce Manager – EUX Agency</div>
-              <div className="review-short">
-                <div className="review-short-sample">"..superior intellect"</div>
-                <div className="review-short-sample">"..deep psychology"</div>
-                <div className="review-short-sample">"..doubled conversions"</div>
-              </div>
-
-
-
-            </div>
-            <div className="review-long-container">
-              <div className="review-long-title">Show full testimonial</div>
-              <div className="review-long">
-                <div className="review-long-text-container">
-                <p>"Within 2 minutes of talking with Nathan, I realized I was dealing with a superior intellect. He doesn’t miss much! I was shocked by the speed, power, and precision of Nathan’s copywriting and UX writing. Nathan instinctively knows what works and what doesn’t because he has deep knowledge of consumer and behavioral psychology.</p>
-                <p>Nathan’s fine-tuned copy nearly doubled our website’s overall conversion rate. I can’t wait to see what he does next for our business!"</p>
-              </div>
-              </div>
-            </div>
-          </div>  */}
+          
           </div>
         </div>
       </div>
