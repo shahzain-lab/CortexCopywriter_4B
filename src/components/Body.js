@@ -4,6 +4,7 @@ import services5 from "../images/services-5.svg";
 import services6 from "../images/services-6.svg";
 import services7 from "../images/services-7.svg";
 import techAr from '../images/techAr.svg';
+import { Samples } from "./Samples";
 ////
 
 export const Body = () => {
@@ -4273,7 +4274,7 @@ export const Body = () => {
         </div>
       </div>
       {/* /// */}
-     
+     <Samples />
     </>
   );
 };

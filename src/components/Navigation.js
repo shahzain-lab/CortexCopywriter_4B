@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import logo_mobile from "../img/logo_mobile.svg";
+import logo_mobile from "../images/logo_mobile.svg";
 
 export const Navigation = () => {
   const rainbowChar0 = useRef(null);

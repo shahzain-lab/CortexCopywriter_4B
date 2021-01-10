@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
-import Intro_Front_Layer from "../img/Intro_Front_Layer.svg";
-import Intro_Featured_Image_Empty from "../img/Intro_Featured_Image_Empty.svg";
-import Intro_Brain from "../img/Intro_Brain.svg";
+import Intro_Front_Layer from "../images/Intro_Front_Layer.svg";
+import Intro_Featured_Image_Empty from "../images/Intro_Featured_Image_Empty.svg";
+import Intro_Brain from "../images/Intro_Brain.svg";
 import { Navigation } from "./Navigation";
 
 export const Header = () => {

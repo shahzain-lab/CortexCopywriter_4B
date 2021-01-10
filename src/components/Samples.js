@@ -1,5 +1,25 @@
 import React from 'react'
+///
 import chatbot from '../images/chatbot.jpg';
+import speedpix from '../images/speedpix.jpg';
+import blazeSample from '../images/blazeSample.jpg';
+import blogStock0 from '../images/blogStock0.jpg';
+import blogStock1 from '../images/blogStock1.jpg';
+import blogStock4 from '../images/blogStock4.jpg';
+import blogStock7 from '../images/blogStock7.jpg';
+import blogStock10 from '../images/blogStock10.jpg';
+import blogStock6 from '../images/blogStock6.jpg';
+import blogStock5 from '../images/blogStock5.jpg';
+import startscale from '../images/startscale.jpg';
+import tara from '../images/tara.jpg';
+import adgrooveSample from '../images/adgrooveSample.jpg';
+import rayvonsnestSample from '../images/rayvonsnestSample.jpg';
+import persona2 from '../images/persona2.svg'; 
+import persona3 from '../images/persona3.svg'; 
+import persona4 from '../images/persona4.svg'; 
+import persona5 from '../images/persona5.svg'; 
+import persona6 from '../images/persona6.svg'; 
+import persona7 from '../images/persona7.svg'; 
 
 
 export const Samples = () => {
