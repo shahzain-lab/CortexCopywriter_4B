@@ -4301,8 +4301,7 @@ export const Body = () => {
 
             <div className="sample">
               <div className="sample-image">
-                <img alt=" " src="img\speedpix.jpg" />
-                {/* <div className="sample-keyword"></div>  */}
+                <img alt=" " src={speedpix} />
               </div>
               <div className="sample-text">
                 <div className="sample-title">User Onboarding</div>
@@ -4318,14 +4317,13 @@ export const Body = () => {
                 </div>
                 <div className="sample-links">
                   <a href="see-more/speedpix-onboarding.html">See more</a>
-                  {/* <a href="https://www.ausbeds.com.au/sienna/">Website</a>  */}
                 </div>
               </div>
             </div>
 
             <div className="sample">
               <div className="sample-image">
-                <img alt=" " src="img\startscale.jpg" />
+                <img alt=" " src={startscale} />
                 <div className="sample-keyword"></div>
               </div>
               <div className="sample-text">
@@ -4339,7 +4337,6 @@ export const Body = () => {
                 </div>
                 <div className="sample-links">
                   <a href="#anchor-casestudy">Case study coming in 2020</a>
-                  {/* <a href="https://www.ausbeds.com.au/sienna/">Website</a> */}
                 </div>
               </div>
             </div>
@@ -4351,7 +4348,7 @@ export const Body = () => {
           <div className="sample-container sample-container-2">
             <div className="sample">
               <div className="sample-image">
-                <img alt=" " src="img\blaze_sample.jpg" />
+                <img alt=" " src={blazeSample} />
                 {/* <div className="sample-keyword"></div>  */}
               </div>
               <div className="sample-text">
@@ -4372,7 +4369,7 @@ export const Body = () => {
 
             <div className="sample">
               <div className="sample-image">
-                <img alt=" " src="img\tara.jpg" />
+                <img alt=" " src={tara} />
                 {/* <div className="sample-keyword"></div> */}
               </div>
               <div className="sample-text">
@@ -4413,7 +4410,7 @@ export const Body = () => {
 
             <div className="sample">
               <div className="sample-image">
-                <img alt=" " src="img\adgroove_sample.jpg" />
+                <img alt=" " src={adgrooveSample} />
                 {/* <div className="sample-keyword"></div>  */}
               </div>
               <div className="sample-text">
@@ -4433,7 +4430,7 @@ export const Body = () => {
 
             <div className="sample" id="screenplays">
               <div className="sample-image">
-                <img alt=" " src="img\rayvonsnest_sample.jpg" />
+                <img alt=" " src={rayvonsnestSample} />
                 {/* <div className="sample-keyword"></div> */}
               </div>
               <div className="sample-text">
@@ -4475,7 +4472,7 @@ export const Body = () => {
                 <div className="casestudy-logo"></div>
                 <div className="casestudy-image">
                   <img
-                    src="img\blog_stock-10.jpg"
+                    src={blogStock10}
                     alt="Cortex Copywriter Case Study: Ausbeds Chatbot"
                   />
                 </div>
@@ -4493,7 +4490,7 @@ export const Body = () => {
                 <div className="casestudy-logo"></div>
                 <div className="casestudy-image">
                   <img
-                    src="img\blog_stock-5.jpg"
+                    src={blogStock5}
                     alt="Cortex Copywriter Case Study: Rebranding Campaign"
                   />
                 </div>
@@ -4512,7 +4509,7 @@ export const Body = () => {
               <div className="casestudy-logo"></div>
               <div className="casestudy-image">
                 <img
-                  src="img\blog_stock-6.jpg"
+                  src={blogStock6}
                   alt="Cortex Copywriter Case Study: Rebranding Campaign"
                 />
               </div>
@@ -4541,7 +4538,7 @@ export const Body = () => {
                 <div className="blog-logo"></div>
                 <div className="blog-image">
                   <img
-                    src="img\blog_stock-1.jpg"
+                    src={blogStock1}
                     alt="What is Digital Copywriting?"
                   />
                 </div>
@@ -4562,7 +4559,7 @@ export const Body = () => {
                 <div className="blog-logo"></div>
                 <div className="blog-image">
                   <img
-                    src="img\blog_stock-0.jpg"
+                    src={blogStock0}
                     alt="Vertical Video to Virtual Vistas"
                   />
                 </div>
@@ -4583,7 +4580,7 @@ export const Body = () => {
                 <div className="blog-logo"></div>
                 <div className="blog-image">
                   <img
-                    src="img\blog_stock-4.jpg"
+                    src={blogStock4}
                     alt="Psychology-based Copywriting"
                   />
                 </div>
@@ -4603,7 +4600,7 @@ export const Body = () => {
                 <div className="blog-logo"></div>
                 <div className="blog-image">
                   <img
-                    src="img\blog_stock-7.jpg"
+                    src={blogStock7}
                     alt="UX writing and FBI Negotiation"
                   />
                 </div>
@@ -4621,7 +4618,7 @@ export const Body = () => {
           <div className="review-container" id="reviews">
             <div className="review">
               <div className="review-image">
-                <img alt=" " src="img\persona-2.svg" />
+                <img alt=" " src={persona2} />
                 <div className="review-logo"></div>
               </div>
               <div className="review-text">
@@ -4661,7 +4658,7 @@ export const Body = () => {
 
             <div className="review">
               <div className="review-image">
-                <img alt=" " src="img\persona-7.svg" />
+                <img alt=" " src={persona7} />
                 <div className="review-logo"></div>
               </div>
               <div className="review-text">
@@ -4705,7 +4702,7 @@ export const Body = () => {
 
             <div className="review">
               <div className="review-image">
-                <img alt=" " src="img\persona-6.svg" />
+                <img alt=" " src={persona6} />
                 <div className="review-logo"></div>
               </div>
               <div className="review-text">
@@ -4718,13 +4715,7 @@ export const Body = () => {
                     "..excellent wireframes"
                   </div>
                 </div>
-                <div className="review-rating">
-                  {/* <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>   */}
-                </div>
+            
               </div>
               <div className="review-long-container">
                 <div className="review-long-title">Show full testimonial</div>
