@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import logo_mobile from "../images/logo_mobile.svg";
 
 export const Navigation = () => {
   const rainbowChar0 = useRef(null);
@@ -19,7 +18,6 @@ export const Navigation = () => {
   const rainbowChar14 = useRef(null);
   const rainbowChar15 = useRef(null);
   const rainbowChar16 = useRef(null);
-  const topbarDesktop = useRef(null);
   useEffect(() => {
     const rainbowKeyframes = [
       [{ filter: "hue-rotate(0deg)" }, { filter: "hue-rotate(360deg)" }],
